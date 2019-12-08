@@ -1,0 +1,382 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;	
+}
+/*start my framework*/
+
+/*end my framework*/
+/* strat navbar on the top*/
+.navbar-default.first
+{
+    padding: 0px !important;
+    margin: 0px;
+    border: none;
+    min-height: 22px !important;
+    border-radius: 0;
+}
+.navbar-left li a
+{
+    height: 20px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    min-height: 20px;
+}
+/* end of navabr on the top*/
+/*start second navbar*/
+.navbar-default.second
+{
+    padding-top: 100px !important;
+    margin: 80px 0px 0px;
+    background-color: #ffffff !important;
+    border: none;
+    min-height: 22px !important;
+    border-radius: 0;
+    
+}
+.navbar-default.second .navbar-left > li:nth-child(1)
+{
+    color: #ff8000;
+    font-size: 30px;
+    line-height: 2.3;
+}
+
+.navbar-default.second .navbar-left > li
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar-default.second .navbar-left > li > select
+{
+    width: 90px;
+    margin-top: 25px;
+}
+
+/*end second navbar*/
+/*start third part*/
+.navbar-default.third
+{
+    margin: 40px 0px 60px;
+    background-color: #ffffff !important;
+    border: none;
+    min-height: 22px !important;
+    border-radius: 0;  
+}
+.third ul li input
+{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.third ul li i.fa
+{
+    position: absolute !important;
+    left : 14px !important;
+    top: 18px !important;
+    font-size: 14px !important;
+    color: gray !important;
+}
+/*end third part*/
+/*start fourth part*/
+.fourth_part .container .row > div > i
+{
+    margin-top: 270px;
+    cursor: pointer;
+}
+.fourth_part .container .row .client
+{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.fourth_part .container .row .client h2
+{
+    color: #fe7003;
+}
+.fourth_part .container .row .client h3
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fourth_part .container .row .client button
+{
+    color: #fff;
+    background-color: #fe7003;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+
+/*end fourth part*/
+/*start five part*/
+.five_part
+{
+    margin: 80px 0px 0px;
+}
+body > div.five_part > div > div > div.col-lg-3 > h3,body > div.five_part > div > div > div.col-lg-9 > h3,body > div.five_part > div > div > div.col-lg-9 > div > div > h3
+{
+    padding: 30px;
+    color: #fe7003;
+    font-weight: 600;
+}
+body > div.five_part > div > div > div.col-lg-3 > ul > li,body > div.five_part > div > div > div.col-lg-9.text-center > div > div > p,body > div.five_part > div > div > div.col-lg-9.text-center > div > div > button
+{
+    font-size: 15px;
+    color: #7b7070;
+    font-weight: bold;
+}
+body > div.five_part > div > div > div.col-lg-9.text-center > div > div > button
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #dedede;
+    border: none;
+}
+body > div.five_part > div > div > div.col-lg-9.text-center > div > div > .overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background: #fe7003;
+    color: #eeeccc;
+    line-height: 30px;
+    display: none;
+}
+body > div.five_part > div > div > div.col-lg-9.text-center > div > div:hover .overlay
+{
+    display: block;
+}
+body > div.five_part > div > div > div.col-lg-9.text-center > div > div > .overlay button
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #fe7003;
+}
+body > div.five_part > div > div > div.col-lg-9.text-center > div > div > .overlay .inner-overlay
+{
+   position: absolute;
+    top: 28%;
+    left: 27%;
+    
+}
+body > div:nth-child(6) > div > div > div.col-lg-9.text-center > div > div > span
+{
+    color: #7b7a7b;
+}
+body > div:nth-child(6) > div > div > div.col-lg-9.text-center > div > div > img
+{
+    margin-top: 30px;
+}
+/*end five part*/
+/*start 7th part*/
+.mix
+{
+    display: none;
+}
+body > div.six_part > div > div > div.col-lg-9 > div > ul > li.btn
+{
+     background-color: #fe7003;
+     color: #fff;
+     font-size: 17px;
+     border: none;
+     border-radius: 10px;
+    
+}
+#mymix
+{
+    margin-top: 40px;
+}
+#mymix > div > div > h3
+{
+    color: #fe7003;
+    font-size: 19px;
+}
+#mymix > div > div
+{
+    margin-bottom: 30px;
+}
+#mymix > div > div > p
+{
+    font-size: 15px;
+    color: #7b7070;
+    font-weight: bold;
+}
+#mymix > div > div > button
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    color: #fe7003;
+    font-size: 18px;
+}
+body > div.six_part > div > div > h3
+{
+    padding: 30px;
+    color: #fe7003;
+    font-weight: 600;
+}
+
+/*end 7 part*/
+/*start 8th part*/
+.part8
+{
+     margin: 80px 0px 80px;
+    
+}
+body > div.eight_part > div > div > div.col-lg-2.col-xs-12.arrow > i
+{
+    position: absolute !important;
+    top: 115px !important;
+    font-size: 23px !important;
+    color: #fe7003;   
+}
+body > div.eight_part > div > div > h3
+{
+    padding: 30px;
+    color: #fe7003;
+    font-weight: 600;
+}
+body > div.eight_part > div > div > div.col-lg-8 > div > div > div > div > h3
+{
+    color: #fe7003;
+    font-size: 19px;
+}
+body > div.eight_part > div > div > div.col-lg-8 > div > div > div > div > p
+{
+    font-size: 15px;
+    color: #7b7070;
+    font-weight: bold;
+    
+}
+body > div.eight_part > div > div > div.col-lg-8 > div > div > div > div > button
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #fe7003;
+    border: 1px solid #707070;
+    color: #ffffff;
+    font-size: 18px;
+}
+body > div.part8 > div > div.row.head > div > h3
+{
+
+    color: #fe7003;
+    font-weight: 600;
+}
+.part8 .head
+{
+    padding: 60px;
+}
+
+.item p
+{
+    font-size: 15px;
+    color: #7b7070;
+    font-weight: bold;
+}
+.item button
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #fe7003;
+    border: 1px solid #707070;
+    color: #ffffff;
+    font-size: 18px;
+}
+.item h3
+{
+    color: #fe7003;
+    font-size: 19px;
+}
+
+/*end 8th part*/
+/*start footer*/
+.exampleSlider .item { width: 20%; }
+
+.exampleSlider .item { width: 20; }
+
+.exampleSlider .item { width: 20%; }
+
+.exampleSlider .item { width: 20%; }
+.item
+{
+    float: left;
+    width: 33%;
+}
+.MS-content
+{
+    height: 350px;
+    overflow: hidden;
+}
+.item
+{
+    height: 100%;
+}
+.footer
+{
+    margin: 80px 0px 0px;
+    background-color: #dedede;
+    padding: 80px;
+}
+.footer span
+{
+    color: #f77600;
+    font-size: 35px;
+}
+.footer h3 ,.footer p
+{
+    color: #a09c9c;
+}
+.footer ul > li ,.footer h4
+{
+    color: #a09c9c;
+}
+.copyright
+{
+   
+    background-color: #585050ab;
+    padding: 20px;
+    font-size: 15px;
+    color: #ccc;
+}
+.copyright b
+{
+    color: #f77600;
+}
+hr
+{
+    border : 1px solid #ada3a3;
+}
+body > div.footer > div > div:nth-child(3) > div:nth-child(5) > input[type="text"]
+{
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+
+}
+
+/*end footer*/
